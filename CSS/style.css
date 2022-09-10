@@ -16,3 +16,16 @@ nav li {
     padding-left: 15px;
     padding-bottom: 15px;
 }
+
+nav a {
+    background-color: #fff;
+    color: black;
+    padding: 1px;
+    border-color: gray;
+    text-decoration: none;
+    font-style: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
