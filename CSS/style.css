@@ -34,3 +34,28 @@ nav a:hover {
 .active {
     background-color: ;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1;
+    padding: 5px;
+    margin: 5px;
+}
+
+.explore {
+    opacity: 70%;
+}
+
+.spaces {
+    opacity: 70%;
+}
+
+@media only screen and (min-width: 600px){
+    .container{
+        flex-direction: row;
+    }
+}
