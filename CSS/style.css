@@ -58,4 +58,9 @@ nav a:hover {
     .container{
         flex-direction: row;
     }
+
+    body{
+        background-image: url(/images/scott-webb-102825.jpg);
+        background-repeat: no-repeat cover;
+    }
 }
