@@ -10,6 +10,11 @@ body {
     background-color: #5ab8e4;
 }
 
+h1{
+    margin: 20px;
+    font-size: 2rem;
+}
+
 nav li {
     display: inline-block;
     padding-top: 20px;
@@ -43,7 +48,7 @@ nav a:hover {
 .main {
     flex: 1;
     padding: 5px;
-    margin: 5px;
+    margin: 50px;
 }
 
 .hour {
