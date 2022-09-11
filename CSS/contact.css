@@ -46,14 +46,25 @@ nav a:hover {
     margin: 5px;
 }
 
-.hour {
+.info {
     opacity: 70%;
 }
 
-.admission {
+.textbox {
     opacity: 70%;
 }
 
+fieldset{
+    margin-top: 15px;
+    text-align: left;
+    height: 50%;
+    width: 80%;
+    border-radius: 40px;
+}
+
+.form__input{
+   display: block; 
+}
 @media only screen and (min-width: 600px){
     .container{
         flex-direction: row;
