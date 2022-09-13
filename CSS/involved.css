@@ -1,0 +1,61 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #5ab8e4;
+}
+
+nav li {
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+nav a {
+    background-color: #fff;
+    color: black;
+    padding: 1px;
+    border-color: gray;
+    text-decoration: none;
+    font-style: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: green;
+}
+
+.active {
+    background-color:white ;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1;
+    padding: 5px;
+    margin: 5px;
+}
+
+.explore {
+    opacity: 70%;
+}
+
+.spaces {
+    opacity: 70%;
+}
+
+@media only screen and (min-width: 600px){
+    .container{
+        flex-direction: row;
+    }
+}
