@@ -52,6 +52,7 @@ nav a:hover {
 
 .spaces {
     opacity: 70%;
+    display: block;
 }
 
 @media only screen and (min-width: 600px){
