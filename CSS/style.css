@@ -71,7 +71,12 @@ nav a:hover {
 
 .spaces {
    padding: 2%; 
-    
+   display: block; 
+}
+
+img {
+    width: 80px;
+    height: 80px;
 }
 
 @media only screen and (min-width: 600px){
