@@ -79,6 +79,16 @@ img {
     height: 80px;
 }
 
+footer {
+    clear:both;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-color: gray;
+    opacity: 80%;
+    padding: 3px;
+}
+
 @media only screen and (min-width: 600px){
     .container{
         flex-direction: row;
