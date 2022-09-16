@@ -81,5 +81,6 @@ nav a:hover {
     body{
         background-image: url(/images/scott-webb-102825.jpg);
         background-repeat: no-repeat cover;
+        background-size: contain;
     }
 }
