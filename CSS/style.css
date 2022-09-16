@@ -17,7 +17,7 @@ h2 {
     border: 30px;
 }
 
-h3 {
+h3, h5 {
     font-size: 20px;
     font-style: bold;
 }
@@ -66,17 +66,16 @@ nav a:hover {
 }
 
 .explore {
-    padding: 2%;
+    margin-left: 30px;
 }
 
 .spaces {
-   padding: 2%; 
    display: block; 
 }
 
 img {
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
 }
 
 footer {
@@ -90,6 +89,10 @@ footer {
     padding-left: 5px;
 }
 
+.nav_body {
+    display: grid;
+}
+
 @media only screen and (min-width: 600px){
     .container{
         flex-direction: row;
@@ -98,6 +101,6 @@ footer {
     body{
         background-image: url(/images/scott-webb-102825.jpg);
         background-repeat: no-repeat cover;
-        background-size: contain;
+        background-size: cover;
     }
 }
