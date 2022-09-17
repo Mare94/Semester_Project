@@ -55,14 +55,14 @@ nav a:hover {
 .container {
     display: flex;
     flex-direction: column;
-    background-color: white;
-    opacity: 85%;
 }
 
 .main {
     flex: 1;
     padding: 5px;
     margin: 5px;
+    background-color: white;
+    opacity: 85%;
 }
 
 .explore {
