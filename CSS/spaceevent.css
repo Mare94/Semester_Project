@@ -91,10 +91,16 @@ footer {
     padding-left: 10px;
 }
 
+#labimg {
+    width: 600;
+    height: 250;
+}
+
 img {
-    width: 320px;
+    width: 310px;
     height: 225px;
 }
+
 
 @media only screen and (min-width: 600px){
     
