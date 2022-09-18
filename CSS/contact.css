@@ -10,6 +10,24 @@ body {
     background-color: #5ab8e4;
 }
 
+h2 {
+    font-size: 30px;
+    font-style: bold;
+    padding-left: 50px;
+    border: 30px;
+}
+
+h3, h5 {
+    font-size: 20px;
+    font-style: bold;
+}
+
+h4 {
+    font-size: 12px;
+    font-style: normal;
+}
+
+
 nav li {
     display: inline-block;
     padding-top: 20px;
@@ -64,6 +82,18 @@ fieldset{
 .form__input{
    display: block; 
 }
+
+footer {
+    clear:both;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-color: gray;
+    opacity: 85%;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
 @media only screen and (min-width: 600px){
     .container{
         flex-direction: row;
