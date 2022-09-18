@@ -10,6 +10,13 @@ body {
     background-color: #5ab8e4;
 }
 
+header {
+    background-color: white;
+    opacity: 85%;
+    padding-left: 10px;
+    padding-top: 1px;
+}
+
 h2 {
     font-size: 30px;
     font-style: bold;
@@ -56,7 +63,7 @@ nav a:hover {
 .container {
     display: flex;
     flex-direction: column;
-    margin-bottom: 280px;
+    margin-bottom: 250px;
 }
 
 .main {
