@@ -71,16 +71,15 @@ nav a:hover {
     padding: 5px;
     margin: 5px;
     background-color: white;
-    opacity: 85%;
+    opacity: 75%;
 }
 
 .food {
-    padding-left:1px;
-    opacity: 85%;
+    border-left: 20px;
 }
 
 .drink {
-    opacity: 85%;
+   padding-left: 20px;
 }
 
 footer {
