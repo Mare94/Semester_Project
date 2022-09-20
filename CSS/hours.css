@@ -75,11 +75,11 @@ nav a:hover {
 }
 
 .hour {
-    opacity: 70%;
+    margin: 10px;
 }
 
 .admission {
-    opacity: 70%;
+    margin: 10px;
 }
 
 footer {
