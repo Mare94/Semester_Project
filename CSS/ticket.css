@@ -1,0 +1,108 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #5ab8e4;
+}
+
+header {
+    background-color: white;
+    opacity: 85%;
+    padding-left: 10px;
+    padding-top: 1px;
+}
+
+h2 {
+    font-size: 30px;
+    font-style: bold;
+    padding-left: 50px;
+    border: 30px;
+}
+
+h3, h5 {
+    font-size: 20px;
+    font-style: bold;
+}
+
+h4 {
+    font-size: 12px;
+    font-style: normal;
+}
+
+nav li {
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+nav a {
+    background-color: #fff;
+    color: black;
+    padding: 1px;
+    border-color: black;
+    text-decoration: none;
+    font-style: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: green;
+}
+
+.active {
+    background-color:white ;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.main {
+    flex: 1;
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+    opacity: 85%;
+}
+
+.explore {
+    margin-left: 30px;
+}
+
+.spaces {
+   display: block; 
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+footer {
+    clear:both;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-color: gray;
+    opacity: 85%;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.nav_body {
+    display: grid;
+}
+
+@media only screen and (min-width: 600px){
+    .container{
+        flex-direction: row;
+    }
+}
