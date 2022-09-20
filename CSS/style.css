@@ -71,7 +71,7 @@ nav a:hover {
     padding: 5px;
     margin: 5px;
     background-color: white;
-    opacity: 85%;
+    opacity: 95%;
 }
 
 .explore {
@@ -80,6 +80,7 @@ nav a:hover {
 
 .spaces {
    display: block; 
+   opacity: 
 }
 
 img {
