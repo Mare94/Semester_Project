@@ -84,7 +84,7 @@ nav a:hover {
 
 footer {
     clear:both;
-    position: relative;
+    position: absolute;
     height: 300px;
     width: 100%;
     background-color: gray;
