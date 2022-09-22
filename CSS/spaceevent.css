@@ -95,10 +95,15 @@ footer {
 
 
 img {
-    width: ;
-    height: ;
+    width: 65%;
+    height: 65%;
 }
 
+@media (max-width: 599px) {
+    .remove-me {
+        display: none;
+    }
+}
 
 @media only screen and (min-width: 600px){
 
