@@ -97,4 +97,9 @@ footer {
     .container{
         flex-direction: row;
     }
+
+    .mat-bilde {
+        width: 1890px;
+        height: 300px;
+    }
 } 
