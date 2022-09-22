@@ -95,11 +95,16 @@ footer {
 
 
 img {
-    width: 310px;
-    height: 225px;
+    width: ;
+    height: ;
 }
 
 
 @media only screen and (min-width: 600px){
+
+    img {
+        width: 310px;
+        height: 225px;
+    }
     
 }
