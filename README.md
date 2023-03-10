@@ -44,7 +44,14 @@ npm run start
 
 ## Contributing
 
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+-Find a project you want to contribute to.
+-Fork it.
+-Clone it to your local system.
+-Make a new branch.
+-Make your changes.
+-Push it back to your repo.
+-Click the Compare & pull request button.
+-Click Create pull request to open a new pull request.
 
 ## Contact
 
